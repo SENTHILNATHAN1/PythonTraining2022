@@ -1,0 +1,84 @@
+================
+March 6
+================
+
+Difference between compiler and interpreter
+Difference between python 2 and python 3
+undetstand and explain about 10 different keywords
+Variable creation rules ===> programs for this one
+Hackerrank python track
+
+<< Difference between compiler and interpreter >>
+S.No.	Compiler	Interpreter
+
+1.	Compiler scans the whole program in one go.	
+Translates program one statement at a time.
+
+2.	As it scans the code in one go, the errors (if any) are shown at the end together.	
+
+Considering it scans code one line at a time, errors are shown line by line.
+3.	Main advantage of compilers is it’s execution time.	
+
+Due to interpreters being slow in executing the object code, it is preferred less.
+4.	It converts the source code into object code.	
+
+It does not convert source code into object code instead it scans it line by line
+5	It does not require source code for later execution.	
+It requires source code for later execution.
+
+Eg.	C, C++, C# etc.	
+Python, Ruby, Perl, SNOBOL, MATLAB, etc.
+
+https://www.geeksforgeeks.org/difference-between-compiler-and-interpreter/
+https://www.tutorialspoint.com/what-is-the-process-of-compilation-and-linking-in-python
+
+<< Difference between python 2 and python 3 >>
+https://www.guru99.com/python-2-vs-python-3.html
+
+
+
+<< undetstand and explain about 10 different keywords >>
+https://www.w3schools.com/python/python_ref_keywords.asp
+and
+or 
+not
+for 
+if
+print
+input
+else
+break
+class
+import
+from
+
+
+
+<< Variable creation rules ===> programs for this one >>
+https://www.w3schools.com/python/gloss_python_variable_names.asp
+https://peps.python.org/pep-0008/
+https://google.github.io/styleguide/pyguide.html
+https://peps.python.org/pep-0008/#function-and-variable-names
+
+A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).
+
+Rules for Python variables:
+
+A variable name must start with a letter or the underscore character
+A variable name cannot start with a number
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+
+#Legal variable names:
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+#Illegal variable names:
+2myvar = "John"
+my-var = "John"
+my var = "John"
+
