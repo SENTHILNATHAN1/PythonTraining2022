@@ -1,0 +1,78 @@
+<< study in detail about input function >>
+https://www.w3schools.com/python/ref_func_input.asp
+
+
+<< study in detail about print function. >>
+https://www.w3schools.com/python/ref_func_print.asp#:~:text=The%20print()%20function%20prints,before%20written%20to%20the%20screen.
+
+
+<< Data type conversion (int to float,bool,string) >>
+int ===> float str  bool
+float ===> int bool str
+bool ===> int float str
+str ===> int bool float
+
+print("senthil Assignment March 12")
+'''
+int ===> float str  bool
+float ===> int bool str
+bool ===> int float str
+str ===> int bool float
+https://stackoverflow.com/questions/1841565/valueerror-invalid-literal-for-int-with-base-10
+
+This means you cannot convert a floating-point number in a string to an integer. 
+In addition, you cannot convert letters to an integer 
+(unless you are using letters with a special meaning, like “inf”).
+https://careerkarma.com/blog/python-valueerror-invalid-literal-for-int-with-base-10/
+coffee_bags_as_int = int(float(coffee_bags))
+'''
+x = 1 # int
+y = 2.8 # float
+z = "Python" # String
+w = True #Boolean
+v = "1275998889"
+
+#convert from int to float, string, boolean:
+print (" << convert from int to float, string, boolean >>")
+a, b, c = float(x), str(x), bool(x)
+print(a, b, c)
+print(type(a), type(b), type(c))
+
+#convert from int to int, string, boolean:
+print (" << convert from float to int, string, boolean >>")
+d, e, f = int(y), str(y), bool(y)
+print(d, e, f)
+print(type(d), type(e), type(f))
+
+#convert from String to int, float, boolean:
+print (" << convert from string to int, float, boolean >>")
+# String to int, float not possible unless it is a number
+g = int(v)
+# h = int(z)
+# h = float(z)
+i = bool(z)
+print(g , i)
+print(type(i))
+
+#convert from bool to int, float, string:
+print (" << convert from boolean to int, string, float >>")
+j, k, l = int(w), str(w), float(w)
+print(j, k, l)
+print(type(j), type(k), type(l))
+
+
+<< Programs >>
+For below programs collect input from user, pi is constant value 3.14 (print output in formatted way)
+write a program to calculate perimeter of the circle with radius 10.2
+write a program to calculate area of circle with radius (float) (collect using input function)
+write a program to calculate perimeter of the cricle with radius (float) (collect it through input function)
+Collect radius and height from user,
+calculate Area of cone (area of cone = 0.33 * pi * r * r * h) (int)
+
+print ("Input Practise")
+pi = 3.14
+r = int(float(input("Please enter the radius")))
+h = int(float(input("Please enter the height")))
+area_of_cone = 0.33 * pi * r * r * h
+print(f"area_of_cone :  {area_of_cone}")
+print(f"area_of_cone_type :  {type(area_of_cone)}")
